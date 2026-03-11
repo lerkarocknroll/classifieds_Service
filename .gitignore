@@ -1,0 +1,37 @@
+# Виртуальное окружение
+.venv/
+.venv1/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Файлы с секретами
+.env
+.env.*
+!.env.example
+
+# Базы данных
+*.db
+*.sqlite3
+
+# Директории с данными
+data/
+
+# Логи
+*.log
+
+# Директории IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
